@@ -34,5 +34,18 @@ def run_tests():
 
 # Edit this code
 def find(word, s):
+        word = word.lower()
+        s = s.lower()
+
+        if s.startswith(word):
+                print("Start")
+        elif s.endswith(word):
+                print("End")
+        elif word in s:
+                print("Middle")
+
+        else:
+                print("Not found")
+                
 
 
