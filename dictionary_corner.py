@@ -42,10 +42,10 @@ def dictionary(word1, word2):
     word1 = word1.lower()
     word2 = word2.lower()
 
-    if word1 < word2:
+    if word1.title() < word2.title():
         print("Go back!")
 
-    elif word1 > word2:
+    elif word1.title() > word2.title():
         print("Keep going")
 
     elif word1 == word2:
