@@ -1,3 +1,4 @@
+
 """
 Problem:
 
@@ -41,4 +42,13 @@ def run_tests():
 
 # Edit this code
 def compare(a, b):
+    
+    if a.title() > b.title():
+        print(a)
+        
+    elif b.title() > a.title():
+        print(b)
+        
+    else:
+        print(a)
 
